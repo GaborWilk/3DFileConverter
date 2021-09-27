@@ -37,10 +37,10 @@ glm::dvec3 point(1.0, 2.0, 3.0);
 bool isInside = fc.isPointInside(point);
 
 /* get the volume of the mesh */
-double result = fc.volume();
+double volume = fc.volume();
 
 /* get the surface of the mesh */
-double result = fc.surface();
+double surface = fc.surface();
 
 /* set scale */
 glm::dvec3 scale(2.0, 2.0, 2.0);
